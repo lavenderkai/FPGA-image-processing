@@ -1,0 +1,680 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {rgb2gray_tb_simulate.do}
+# vsim -do "do {rgb2gray_tb_simulate.do}" -l simulate.log 
+# Start time: 20:25:15 on Nov 12,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2116):         task_ram_col (col_wr_ram_a_web_tmp[4], col_wr_ram_a_wea_tmp[4], col_wr_ram_a_dia_tmp[39:32], col_wr_ram_a_dipa_tmp[4], mem[col_wr_ram_a_addra_tmp[14:6]][32 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2116): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2116): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2116): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2116): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2120):         task_ram_col (col_wr_ram_a_web_tmp[5], col_wr_ram_a_wea_tmp[5], col_wr_ram_a_dia_tmp[47:40], col_wr_ram_a_dipa_tmp[5], mem[col_wr_ram_a_addra_tmp[14:6]][40 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2120): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2120): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2120): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2120): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2124):         task_ram_col (col_wr_ram_a_web_tmp[6], col_wr_ram_a_wea_tmp[6], col_wr_ram_a_dia_tmp[55:48], col_wr_ram_a_dipa_tmp[6], mem[col_wr_ram_a_addra_tmp[14:6]][48 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2124): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2124): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2124): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2124): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2128):         task_ram_col (col_wr_ram_a_web_tmp[7], col_wr_ram_a_wea_tmp[7], col_wr_ram_a_dia_tmp[63:56], col_wr_ram_a_dipa_tmp[7], mem[col_wr_ram_a_addra_tmp[14:6]][56 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2128): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2128): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2128): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2128): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2228):         task_ram_ox (ox_wr_ram_a_web_tmp[4], ox_wr_ram_a_wea_tmp[4], ox_wr_ram_a_dia_tmp[39:32], ox_wr_ram_a_dipa_tmp[4], mem[ox_wr_ram_a_addra_tmp[14:6]][32 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2228): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2228): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2228): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2228): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2232):         task_ram_ox (ox_wr_ram_a_web_tmp[5], ox_wr_ram_a_wea_tmp[5], ox_wr_ram_a_dia_tmp[47:40], ox_wr_ram_a_dipa_tmp[5], mem[ox_wr_ram_a_addra_tmp[14:6]][40 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2232): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2232): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2232): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2232): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2236):         task_ram_ox (ox_wr_ram_a_web_tmp[6], ox_wr_ram_a_wea_tmp[6], ox_wr_ram_a_dia_tmp[55:48], ox_wr_ram_a_dipa_tmp[6], mem[ox_wr_ram_a_addra_tmp[14:6]][48 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2236): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2236): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2236): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2236): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2240):         task_ram_ox (ox_wr_ram_a_web_tmp[7], ox_wr_ram_a_wea_tmp[7], ox_wr_ram_a_dia_tmp[63:56], ox_wr_ram_a_dipa_tmp[7], mem[ox_wr_ram_a_addra_tmp[14:6]][56 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2240): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2240): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2240): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2240): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2355):         task_ram_col (col_wr_ram_b_wea_tmp[4], col_wr_ram_b_web_tmp[4], col_wr_ram_b_dib_tmp[39:32], col_wr_ram_b_dipb_tmp[4], mem[col_wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2355): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2355): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2355): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2355): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2359):         task_ram_col (col_wr_ram_b_wea_tmp[5], col_wr_ram_b_web_tmp[5], col_wr_ram_b_dib_tmp[47:40], col_wr_ram_b_dipb_tmp[5], mem[col_wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2359): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2359): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2359): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2359): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2363):         task_ram_col (col_wr_ram_b_wea_tmp[6], col_wr_ram_b_web_tmp[6], col_wr_ram_b_dib_tmp[55:48], col_wr_ram_b_dipb_tmp[6], mem[col_wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2363): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2363): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2363): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2363): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2367):         task_ram_col (col_wr_ram_b_wea_tmp[7], col_wr_ram_b_web_tmp[7], col_wr_ram_b_dib_tmp[63:56], col_wr_ram_b_dipb_tmp[7], mem[col_wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2367): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2367): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2367): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2367): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2482):         task_ram_ox (ox_wr_ram_b_wea_tmp[4], ox_wr_ram_b_web_tmp[4], ox_wr_ram_b_dib_tmp[39:32], ox_wr_ram_b_dipb_tmp[4], mem[ox_wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2482): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2482): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2482): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2482): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2486):         task_ram_ox (ox_wr_ram_b_wea_tmp[5], ox_wr_ram_b_web_tmp[5], ox_wr_ram_b_dib_tmp[47:40], ox_wr_ram_b_dipb_tmp[5], mem[ox_wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2486): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2486): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2486): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2486): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2490):         task_ram_ox (ox_wr_ram_b_wea_tmp[6], ox_wr_ram_b_web_tmp[6], ox_wr_ram_b_dib_tmp[55:48], ox_wr_ram_b_dipb_tmp[6], mem[ox_wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2490): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2490): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2490): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2490): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2494):         task_ram_ox (ox_wr_ram_b_wea_tmp[7], ox_wr_ram_b_web_tmp[7], ox_wr_ram_b_dib_tmp[63:56], ox_wr_ram_b_dipb_tmp[7], mem[ox_wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2494): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2494): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2494): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2494): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2588):         task_ram (wr_ram_b_web_tmp[4], dib_tmp[39:32], dipb_tmp[4], mem[wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2588): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2588): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2588): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2588): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2589):         task_ram (wr_ram_b_web_tmp[5], dib_tmp[47:40], dipb_tmp[5], mem[wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2589): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2589): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2589): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2589): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2590):         task_ram (wr_ram_b_web_tmp[6], dib_tmp[55:48], dipb_tmp[6], mem[wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2590): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2590): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2590): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2590): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2591):         task_ram (wr_ram_b_web_tmp[7], dib_tmp[63:56], dipb_tmp[7], mem[wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2591): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2591): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2591): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2591): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2709):               doa_ltmp[39:32] = mem[col_rd_ram_a_addra_tmp[14:6]][39:32];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2709): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2709): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2715):               doa_ltmp[47:40] = mem[col_rd_ram_a_addra_tmp[14:6]][47:40];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2715): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2715): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2721):               doa_ltmp[55:48] = mem[col_rd_ram_a_addra_tmp[14:6]][55:48];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2721): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2721): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2727):               doa_ltmp[63:56] = mem[col_rd_ram_a_addra_tmp[14:6]][63:56];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2727): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2727): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2867):               col_rd_ram_b_dob_ltmp[39:32] = mem[col_rd_ram_b_addrb_tmp[14:6]][39:32];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2867): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2867): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2873):               col_rd_ram_b_dob_ltmp[47:40] = mem[col_rd_ram_b_addrb_tmp[14:6]][47:40];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2873): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2873): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2879):               col_rd_ram_b_dob_ltmp[55:48] = mem[col_rd_ram_b_addrb_tmp[14:6]][55:48];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2879): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2879): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2885):               col_rd_ram_b_dob_ltmp[63:56] = mem[col_rd_ram_b_addrb_tmp[14:6]][63:56];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2885): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB36E1.v(2885): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1749):         task_ram_col (col_wr_ram_a_web_tmp[4], col_wr_ram_a_wea_tmp[4], col_wr_ram_a_dia_tmp[39:32], col_wr_ram_a_dipa_tmp[4], mem[col_wr_ram_a_addra_tmp[14:6]][32 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1749): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1749): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1749): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1749): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1753):         task_ram_col (col_wr_ram_a_web_tmp[5], col_wr_ram_a_wea_tmp[5], col_wr_ram_a_dia_tmp[47:40], col_wr_ram_a_dipa_tmp[5], mem[col_wr_ram_a_addra_tmp[14:6]][40 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1753): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1753): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1753): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1753): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1757):         task_ram_col (col_wr_ram_a_web_tmp[6], col_wr_ram_a_wea_tmp[6], col_wr_ram_a_dia_tmp[55:48], col_wr_ram_a_dipa_tmp[6], mem[col_wr_ram_a_addra_tmp[14:6]][48 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1757): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1757): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1757): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1757): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1761):         task_ram_col (col_wr_ram_a_web_tmp[7], col_wr_ram_a_wea_tmp[7], col_wr_ram_a_dia_tmp[63:56], col_wr_ram_a_dipa_tmp[7], mem[col_wr_ram_a_addra_tmp[14:6]][56 +: 8], memp[col_wr_ram_a_addra_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1761): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1761): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1761): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1761): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1861):         task_ram_ox (ox_wr_ram_a_web_tmp[4], ox_wr_ram_a_wea_tmp[4], ox_wr_ram_a_dia_tmp[39:32], ox_wr_ram_a_dipa_tmp[4], mem[ox_wr_ram_a_addra_tmp[14:6]][32 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1861): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1861): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1861): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1861): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1865):         task_ram_ox (ox_wr_ram_a_web_tmp[5], ox_wr_ram_a_wea_tmp[5], ox_wr_ram_a_dia_tmp[47:40], ox_wr_ram_a_dipa_tmp[5], mem[ox_wr_ram_a_addra_tmp[14:6]][40 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1865): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1865): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1865): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1865): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1869):         task_ram_ox (ox_wr_ram_a_web_tmp[6], ox_wr_ram_a_wea_tmp[6], ox_wr_ram_a_dia_tmp[55:48], ox_wr_ram_a_dipa_tmp[6], mem[ox_wr_ram_a_addra_tmp[14:6]][48 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1869): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1869): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1869): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1869): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1873):         task_ram_ox (ox_wr_ram_a_web_tmp[7], ox_wr_ram_a_wea_tmp[7], ox_wr_ram_a_dia_tmp[63:56], ox_wr_ram_a_dipa_tmp[7], mem[ox_wr_ram_a_addra_tmp[14:6]][56 +: 8], memp[ox_wr_ram_a_addra_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1873): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1873): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1873): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1873): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1988):         task_ram_col (col_wr_ram_b_wea_tmp[4], col_wr_ram_b_web_tmp[4], col_wr_ram_b_dib_tmp[39:32], col_wr_ram_b_dipb_tmp[4], mem[col_wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1988): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1988): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1988): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1988): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1992):         task_ram_col (col_wr_ram_b_wea_tmp[5], col_wr_ram_b_web_tmp[5], col_wr_ram_b_dib_tmp[47:40], col_wr_ram_b_dipb_tmp[5], mem[col_wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1992): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1992): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1992): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1992): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1996):         task_ram_col (col_wr_ram_b_wea_tmp[6], col_wr_ram_b_web_tmp[6], col_wr_ram_b_dib_tmp[55:48], col_wr_ram_b_dipb_tmp[6], mem[col_wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1996): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1996): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1996): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(1996): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2000):         task_ram_col (col_wr_ram_b_wea_tmp[7], col_wr_ram_b_web_tmp[7], col_wr_ram_b_dib_tmp[63:56], col_wr_ram_b_dipb_tmp[7], mem[col_wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[col_wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2000): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2000): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2000): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2000): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2115):         task_ram_ox (ox_wr_ram_b_wea_tmp[4], ox_wr_ram_b_web_tmp[4], ox_wr_ram_b_dib_tmp[39:32], ox_wr_ram_b_dipb_tmp[4], mem[ox_wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2115): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2115): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2115): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2115): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2119):         task_ram_ox (ox_wr_ram_b_wea_tmp[5], ox_wr_ram_b_web_tmp[5], ox_wr_ram_b_dib_tmp[47:40], ox_wr_ram_b_dipb_tmp[5], mem[ox_wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2119): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2119): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2119): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2119): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2123):         task_ram_ox (ox_wr_ram_b_wea_tmp[6], ox_wr_ram_b_web_tmp[6], ox_wr_ram_b_dib_tmp[55:48], ox_wr_ram_b_dipb_tmp[6], mem[ox_wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2123): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2123): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2123): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2123): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2127):         task_ram_ox (ox_wr_ram_b_wea_tmp[7], ox_wr_ram_b_web_tmp[7], ox_wr_ram_b_dib_tmp[63:56], ox_wr_ram_b_dipb_tmp[7], mem[ox_wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[ox_wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2127): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2127): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2127): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2127): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2221):         task_ram (wr_ram_b_web_tmp[4], dib_tmp[39:32], dipb_tmp[4], mem[wr_ram_b_addrb_tmp[14:6]][32 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+4)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2221): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2221): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2221): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2221): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2222):         task_ram (wr_ram_b_web_tmp[5], dib_tmp[47:40], dipb_tmp[5], mem[wr_ram_b_addrb_tmp[14:6]][40 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+5)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2222): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2222): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2222): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2222): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2223):         task_ram (wr_ram_b_web_tmp[6], dib_tmp[55:48], dipb_tmp[6], mem[wr_ram_b_addrb_tmp[14:6]][48 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+6)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2223): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2223): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2223): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2223): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2224):         task_ram (wr_ram_b_web_tmp[7], dib_tmp[63:56], dipb_tmp[7], mem[wr_ram_b_addrb_tmp[14:6]][56 +: 8], memp[wr_ram_b_addrb_tmp[14:6]][(index+7)+:1]);
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2224): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2224): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2224): (vopt-2697) Start index of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2224): (vopt-2697) End index of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2342):               doa_ltmp[39:32] = mem[col_rd_ram_a_addra_tmp[14:6]][39:32];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2342): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2342): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2348):               doa_ltmp[47:40] = mem[col_rd_ram_a_addra_tmp[14:6]][47:40];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2348): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2348): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2354):               doa_ltmp[55:48] = mem[col_rd_ram_a_addra_tmp[14:6]][55:48];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2354): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2354): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2360):               doa_ltmp[63:56] = mem[col_rd_ram_a_addra_tmp[14:6]][63:56];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2360): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2360): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2500):               col_rd_ram_b_dob_ltmp[39:32] = mem[col_rd_ram_b_addrb_tmp[14:6]][39:32];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2500): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2500): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2506):               col_rd_ram_b_dob_ltmp[47:40] = mem[col_rd_ram_b_addrb_tmp[14:6]][47:40];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2506): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2506): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2512):               col_rd_ram_b_dob_ltmp[55:48] = mem[col_rd_ram_b_addrb_tmp[14:6]][55:48];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2512): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2512): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+###### D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2518):               col_rd_ram_b_dob_ltmp[63:56] = mem[col_rd_ram_b_addrb_tmp[14:6]][63:56];
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2518): (vopt-2697) MSB of part-select into 'mem' is out of bounds.
+# 
+# ** Warning: D:\Xilinx\Vivado\2015.4\data\verilog\src\unisims\RAMB18E1.v(2518): (vopt-2697) LSB of part-select into 'mem' is out of bounds.
+# 
+# Loading work.rgb2gray_tb(fast)
+# Loading work.image_src(fast)
+# Loading work.rgb2gray(fast)
+# Loading work.video_cap(fast)
+# Loading work.fifo_generator_0(fast)
+# Loading work.fifo_generator_0_fifo_generator_v13_0_1(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading work.fifo_generator_0_fifo_generator_v13_0_1_synth(fast)
+# Loading work.fifo_generator_0_fifo_generator_top(fast)
+# Loading work.fifo_generator_0_fifo_generator_ramfifo(fast)
+# Loading work.fifo_generator_0_clk_x_pntrs(fast)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.LUT2(fast)
+# Loading work.fifo_generator_0_synchronizer_ff(fast)
+# Loading unisims_ver.FDCE(fast)
+# Loading work.fifo_generator_0_synchronizer_ff_3(fast)
+# Loading work.fifo_generator_0_synchronizer_ff_4(fast)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.LUT4(fast__1)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading work.fifo_generator_0_synchronizer_ff_5(fast)
+# Loading work.fifo_generator_0_rd_logic(fast)
+# Loading work.fifo_generator_0_rd_dc_as(fast)
+# Loading unisims_ver.CARRY4(fast)
+# Loading work.fifo_generator_0_rd_status_flags_as(fast)
+# Loading work.fifo_generator_0_compare_1(fast)
+# Loading unisims_ver.LUT4(fast__2)
+# Loading work.fifo_generator_0_compare_2(fast)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.FDPE(fast)
+# Loading work.fifo_generator_0_rd_bin_cntr(fast)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.LUT3(fast__1)
+# Loading unisims_ver.LUT4(fast__3)
+# Loading unisims_ver.LUT5(fast__1)
+# Loading unisims_ver.LUT6(fast__1)
+# Loading unisims_ver.LUT4(fast__4)
+# Loading unisims_ver.LUT4(fast__5)
+# Loading work.fifo_generator_0_wr_logic(fast)
+# Loading work.fifo_generator_0_wr_status_flags_as(fast)
+# Loading work.fifo_generator_0_compare(fast)
+# Loading work.fifo_generator_0_compare_0(fast)
+# Loading unisims_ver.LUT5(fast__2)
+# Loading work.fifo_generator_0_wr_bin_cntr(fast)
+# Loading work.fifo_generator_0_memory(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_v8_3_1(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_v8_3_1_synth(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_top(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_generic_cstr(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_prim_width(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_prim_wrapper(fast)
+# Loading unisims_ver.RAMB18E1(fast)
+# Loading unisims_ver.RB18_INTERNAL_VLOG(fast)
+# Loading work.fifo_generator_0_reset_blk_ramfifo__parameterized0(fast)
+# Loading unisims_ver.LUT3(fast__2)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.FDPE(fast__1)
+# Loading work.fifo_generator_0_reset_blk_ramfifo(fast)
+# Loading work.fifo_generator_1(fast)
+# Loading work.fifo_generator_1_fifo_generator_v13_0_1(fast)
+# Loading work.fifo_generator_1_fifo_generator_v13_0_1_synth(fast)
+# Loading work.fifo_generator_1_fifo_generator_top(fast)
+# Loading work.fifo_generator_1_fifo_generator_ramfifo(fast)
+# Loading work.fifo_generator_1_rd_logic(fast)
+# Loading work.fifo_generator_1_rd_status_flags_ss(fast)
+# Loading work.fifo_generator_1_compare_1(fast)
+# Loading work.fifo_generator_1_compare_2(fast)
+# Loading unisims_ver.LUT6(fast__2)
+# Loading unisims_ver.FDRE(fast__1)
+# Loading work.fifo_generator_1_rd_bin_cntr(fast)
+# Loading unisims_ver.LUT3(fast__3)
+# Loading unisims_ver.LUT5(fast__3)
+# Loading unisims_ver.LUT6(fast__3)
+# Loading unisims_ver.LUT6(fast__4)
+# Loading unisims_ver.FDSE(fast)
+# Loading work.fifo_generator_1_wr_logic(fast)
+# Loading work.fifo_generator_1_wr_status_flags_ss(fast)
+# Loading work.fifo_generator_1_compare(fast)
+# Loading work.fifo_generator_1_compare_0(fast)
+# Loading unisims_ver.LUT6(fast__5)
+# Loading work.fifo_generator_1_wr_bin_cntr(fast)
+# Loading work.fifo_generator_1_memory(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_v8_3_1(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_v8_3_1_synth(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_top(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_generic_cstr(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_prim_width(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_prim_wrapper(fast)
+# Loading unisims_ver.RAMB36E1(fast)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast)
+# Loading work.fifo_generator_1_reset_blk_ramfifo(fast)
+# Loading work.RGB2YCrCb(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) ../../../src/image_src.v(89): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Instance: /rgb2gray_tb/u1 File: ../../../src/image_src.v
+# ** Warning: (vsim-PLI-3691) ../../../src/image_src.v(90): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /rgb2gray_tb/u1 File: ../../../src/image_src.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(141): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(147): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(153): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.rgb2gray_tb(fast)
+# Loading work.image_src(fast)
+# Loading work.rgb2gray(fast)
+# Loading work.video_cap(fast)
+# Loading work.fifo_generator_0(fast)
+# Loading work.fifo_generator_0_fifo_generator_v13_0_1(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading work.fifo_generator_0_fifo_generator_v13_0_1_synth(fast)
+# Loading work.fifo_generator_0_fifo_generator_top(fast)
+# Loading work.fifo_generator_0_fifo_generator_ramfifo(fast)
+# Loading work.fifo_generator_0_clk_x_pntrs(fast)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.LUT2(fast)
+# Loading work.fifo_generator_0_synchronizer_ff(fast)
+# Loading unisims_ver.FDCE(fast)
+# Loading work.fifo_generator_0_synchronizer_ff_3(fast)
+# Loading work.fifo_generator_0_synchronizer_ff_4(fast)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.LUT4(fast__1)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading work.fifo_generator_0_synchronizer_ff_5(fast)
+# Loading work.fifo_generator_0_rd_logic(fast)
+# Loading work.fifo_generator_0_rd_dc_as(fast)
+# Loading unisims_ver.CARRY4(fast)
+# Loading work.fifo_generator_0_rd_status_flags_as(fast)
+# Loading work.fifo_generator_0_compare_1(fast)
+# Loading unisims_ver.LUT4(fast__2)
+# Loading work.fifo_generator_0_compare_2(fast)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.FDPE(fast)
+# Loading work.fifo_generator_0_rd_bin_cntr(fast)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.LUT3(fast__1)
+# Loading unisims_ver.LUT4(fast__3)
+# Loading unisims_ver.LUT5(fast__1)
+# Loading unisims_ver.LUT6(fast__1)
+# Loading unisims_ver.LUT4(fast__4)
+# Loading unisims_ver.LUT4(fast__5)
+# Loading work.fifo_generator_0_wr_logic(fast)
+# Loading work.fifo_generator_0_wr_status_flags_as(fast)
+# Loading work.fifo_generator_0_compare(fast)
+# Loading work.fifo_generator_0_compare_0(fast)
+# Loading unisims_ver.LUT5(fast__2)
+# Loading work.fifo_generator_0_wr_bin_cntr(fast)
+# Loading work.fifo_generator_0_memory(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_v8_3_1(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_v8_3_1_synth(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_top(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_generic_cstr(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_prim_width(fast)
+# Loading work.fifo_generator_0_blk_mem_gen_prim_wrapper(fast)
+# Loading unisims_ver.RAMB18E1(fast)
+# Loading unisims_ver.RB18_INTERNAL_VLOG(fast)
+# Loading work.fifo_generator_0_reset_blk_ramfifo__parameterized0(fast)
+# Loading unisims_ver.LUT3(fast__2)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.FDPE(fast__1)
+# Loading work.fifo_generator_0_reset_blk_ramfifo(fast)
+# Loading work.fifo_generator_1(fast)
+# Loading work.fifo_generator_1_fifo_generator_v13_0_1(fast)
+# Loading work.fifo_generator_1_fifo_generator_v13_0_1_synth(fast)
+# Loading work.fifo_generator_1_fifo_generator_top(fast)
+# Loading work.fifo_generator_1_fifo_generator_ramfifo(fast)
+# Loading work.fifo_generator_1_rd_logic(fast)
+# Loading work.fifo_generator_1_rd_status_flags_ss(fast)
+# Loading work.fifo_generator_1_compare_1(fast)
+# Loading work.fifo_generator_1_compare_2(fast)
+# Loading unisims_ver.LUT6(fast__2)
+# Loading unisims_ver.FDRE(fast__1)
+# Loading work.fifo_generator_1_rd_bin_cntr(fast)
+# Loading unisims_ver.LUT3(fast__3)
+# Loading unisims_ver.LUT5(fast__3)
+# Loading unisims_ver.LUT6(fast__3)
+# Loading unisims_ver.LUT6(fast__4)
+# Loading unisims_ver.FDSE(fast)
+# Loading work.fifo_generator_1_wr_logic(fast)
+# Loading work.fifo_generator_1_wr_status_flags_ss(fast)
+# Loading work.fifo_generator_1_compare(fast)
+# Loading work.fifo_generator_1_compare_0(fast)
+# Loading unisims_ver.LUT6(fast__5)
+# Loading work.fifo_generator_1_wr_bin_cntr(fast)
+# Loading work.fifo_generator_1_memory(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_v8_3_1(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_v8_3_1_synth(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_top(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_generic_cstr(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_prim_width(fast)
+# Loading work.fifo_generator_1_blk_mem_gen_prim_wrapper(fast)
+# Loading unisims_ver.RAMB36E1(fast)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast)
+# Loading work.fifo_generator_1_reset_blk_ramfifo(fast)
+# Loading work.RGB2YCrCb(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) ../../../src/image_src.v(89): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Instance: /rgb2gray_tb/u1 File: ../../../src/image_src.v
+# ** Warning: (vsim-PLI-3691) ../../../src/image_src.v(90): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /rgb2gray_tb/u1 File: ../../../src/image_src.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(141): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(147): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+# ** Warning: (vsim-PLI-3691) ../../../src/rgb2gray_tb.v(153): Expected a system task, not a system function '$fseek'.
+#    Time: 0 ps  Iteration: 0  Region: /rgb2gray_tb/capture_operation File: ../../../src/rgb2gray_tb.v
+run
+# End time: 20:45:54 on Nov 12,2020, Elapsed time: 0:20:39
+# Errors: 0, Warnings: 394

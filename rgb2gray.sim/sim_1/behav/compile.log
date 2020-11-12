@@ -1,0 +1,81 @@
+# do {rgb2gray_tb_compile.do}
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 20:25:06 on Nov 12,2020
+# vlog -64 -incr -work xil_defaultlib ../../../rgb2gray.ip_user_files/ip/fifo_generator_1/fifo_generator_1_sim_netlist.v ../../../rgb2gray.ip_user_files/ip/fifo_generator_0/fifo_generator_0_sim_netlist.v ../../../src/RGB2YCbCr.v ../../../src/video_cap.v ../../../src/image_src.v ../../../src/rgb2gray.v ../../../src/rgb2gray_tb.v 
+# -- Compiling module fifo_generator_1
+# -- Compiling module fifo_generator_1_blk_mem_gen_generic_cstr
+# -- Compiling module fifo_generator_1_blk_mem_gen_prim_width
+# -- Compiling module fifo_generator_1_blk_mem_gen_prim_wrapper
+# -- Compiling module fifo_generator_1_blk_mem_gen_top
+# -- Compiling module fifo_generator_1_blk_mem_gen_v8_3_1
+# -- Compiling module fifo_generator_1_blk_mem_gen_v8_3_1_synth
+# -- Compiling module fifo_generator_1_compare
+# -- Compiling module fifo_generator_1_compare_0
+# -- Compiling module fifo_generator_1_compare_1
+# -- Compiling module fifo_generator_1_compare_2
+# -- Compiling module fifo_generator_1_fifo_generator_ramfifo
+# -- Compiling module fifo_generator_1_fifo_generator_top
+# -- Compiling module fifo_generator_1_fifo_generator_v13_0_1
+# -- Compiling module fifo_generator_1_fifo_generator_v13_0_1_synth
+# -- Compiling module fifo_generator_1_memory
+# -- Compiling module fifo_generator_1_rd_bin_cntr
+# -- Compiling module fifo_generator_1_rd_logic
+# -- Compiling module fifo_generator_1_rd_status_flags_ss
+# -- Compiling module fifo_generator_1_reset_blk_ramfifo
+# -- Compiling module fifo_generator_1_wr_bin_cntr
+# -- Compiling module fifo_generator_1_wr_logic
+# -- Compiling module fifo_generator_1_wr_status_flags_ss
+# -- Compiling module glbl
+# -- Compiling module fifo_generator_0
+# -- Compiling module fifo_generator_0_blk_mem_gen_generic_cstr
+# -- Compiling module fifo_generator_0_blk_mem_gen_prim_width
+# -- Compiling module fifo_generator_0_blk_mem_gen_prim_wrapper
+# -- Compiling module fifo_generator_0_blk_mem_gen_top
+# -- Compiling module fifo_generator_0_blk_mem_gen_v8_3_1
+# -- Compiling module fifo_generator_0_blk_mem_gen_v8_3_1_synth
+# -- Compiling module fifo_generator_0_clk_x_pntrs
+# -- Compiling module fifo_generator_0_compare
+# -- Compiling module fifo_generator_0_compare_0
+# -- Compiling module fifo_generator_0_compare_1
+# -- Compiling module fifo_generator_0_compare_2
+# -- Compiling module fifo_generator_0_fifo_generator_ramfifo
+# -- Compiling module fifo_generator_0_fifo_generator_top
+# -- Compiling module fifo_generator_0_fifo_generator_v13_0_1
+# -- Compiling module fifo_generator_0_fifo_generator_v13_0_1_synth
+# -- Compiling module fifo_generator_0_memory
+# -- Compiling module fifo_generator_0_rd_bin_cntr
+# -- Compiling module fifo_generator_0_rd_dc_as
+# -- Compiling module fifo_generator_0_rd_logic
+# -- Compiling module fifo_generator_0_rd_status_flags_as
+# -- Compiling module fifo_generator_0_reset_blk_ramfifo
+# -- Compiling module fifo_generator_0_reset_blk_ramfifo__parameterized0
+# -- Compiling module fifo_generator_0_synchronizer_ff
+# -- Compiling module fifo_generator_0_synchronizer_ff_3
+# -- Compiling module fifo_generator_0_synchronizer_ff_4
+# -- Compiling module fifo_generator_0_synchronizer_ff_5
+# -- Compiling module fifo_generator_0_wr_bin_cntr
+# -- Compiling module fifo_generator_0_wr_logic
+# -- Compiling module fifo_generator_0_wr_status_flags_as
+# -- Compiling module RGB2YCrCb
+# -- Compiling module video_cap
+# -- Compiling module image_src
+# -- Compiling module rgb2gray
+# -- Compiling module rgb2gray_tb
+# 
+# Top level modules:
+# 	glbl
+# 	rgb2gray_tb
+# End time: 20:25:06 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 20:25:06 on Nov 12,2020
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 20:25:06 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
